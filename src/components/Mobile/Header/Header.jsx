@@ -1,14 +1,11 @@
 import "./Header.scss";
+import logo from "/src/assets/image/logohead-white.png";
 import BurgerMenu from "../BurgerMenu/BurgerMenu.jsx";
 
 function Header() {
     return (
         <header className="header">
-            <img
-                className="header-logo"
-                src="../assets/image/logohead-white.png"
-                alt="Logo"
-            />
+            <img className="header-logo" src={logo} alt="Logo" />
             <BurgerMenu />
         </header>
     );
