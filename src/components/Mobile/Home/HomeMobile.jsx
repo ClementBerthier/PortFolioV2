@@ -1,7 +1,8 @@
 import "./HomeMobile.scss";
+import Header from "../Header/Header.jsx";
 
 function HomeMobile() {
-    return <>Mobile</>;
+    return <Header />;
 }
 
 export default HomeMobile;

@@ -1,7 +1,7 @@
 import "./App.scss";
 import useMobileDetect from "../../Hook/UseMobileDetect.js";
-import HomeMobile from "../Mobile/App/HomeMobile.jsx";
-import HomeDesktop from "../Desktop/HomeDesktop.jsx";
+import HomeMobile from "../Mobile/Home/HomeMobile.jsx";
+import HomeDesktop from "../Desktop/Home/HomeDesktop.jsx";
 
 function App() {
     const isMobile = useMobileDetect();
