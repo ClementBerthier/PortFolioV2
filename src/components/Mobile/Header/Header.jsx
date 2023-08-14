@@ -6,7 +6,7 @@ function Header() {
         <header className="header">
             <img
                 className="header-logo"
-                src="../src/assets/image/logohead-white.png"
+                src="../assets/image/logohead-white.png"
                 alt="Logo"
             />
             <BurgerMenu />
