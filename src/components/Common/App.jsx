@@ -1,5 +1,5 @@
 import "./App.scss";
-import useMobileDetect from "../../Hook/UseMobileDetect.js";
+import useMobileDetect from "../../Hook/useMobileDetect.js";
 import HomeMobile from "../Mobile/Home/HomeMobile.jsx";
 import HomeDesktop from "../Desktop/Home/HomeDesktop.jsx";
 

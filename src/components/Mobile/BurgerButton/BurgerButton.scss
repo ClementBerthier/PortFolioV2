@@ -49,37 +49,11 @@
     width: 0vw;
     height: 200vh;
     position: absolute;
-    background-color: darkblue;
-    animation: 1s linear forwards shrink;
 }
 
 .burger-menu.clicked {
-    width: 0vw;
-    height: 200vh;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    background-color: darkblue;
-
-    animation: 1s linear forwards grow;
-}
-
-@keyframes grow {
-    0% {
-        width: 0vw;
-        height: 200vh;
-    }
-    100% {
-        width: 100vw;
-        height: 200vh;
-    }
-}
-
-@keyframes shrink {
-    0% {
-        width: 100vw;
-        height: 200vh;
-    }
-    100% {
-        width: 0vw;
-        height: 200vh;
-    }
+    top: 0;
 }
