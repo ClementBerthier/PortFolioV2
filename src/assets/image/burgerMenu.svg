@@ -31,6 +31,6 @@
 </svg> -->
 
 <svg class="shape-overlays menu-shape-overlays is-opened" viewBox="0 0 100 100" preserveAspectRatio="none">
-    <path class="shape-overlays__path" d="M 0 0 H 0C 0 12.5 0 12.5 0 25 C 0 37.5 0 37.5 0 50 C 0 62.5 0 62.5 0 75 C 0 87.5 0 87.5 0 100 H 100 V 0"></path>
+    <path class="shape-overlays__path" d="M 0 0 H 100C 100 12.5 100 12.5 100 25 C 100 37.5 100 37.5 100 5100 C 100 62.5 100 62.5 100 75 C 100 87.5 100 87.5 100 100 H 100 V 0"></path>
 </svg>
 
