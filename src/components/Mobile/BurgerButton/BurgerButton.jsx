@@ -22,9 +22,6 @@ function BurgerButton() {
     ];
 
     const [counter, setCounter] = useState(0);
-    console.log(counter);
-    console.log("svgValues1 " + svgValues1[counter]);
-    console.log("svgValues2 " + svgValues2[counter]);
 
     const svgPath = `M 0 0 H ${svgValues1[counter]}C ${svgValues1[counter]} 12.5 ${svgValues2[counter]} 12.5 ${svgValues2[counter]} 25 C ${svgValues2[counter]} 37.5 ${svgValues1[counter]} 37.5 ${svgValues1[counter]} 50 C ${svgValues1[counter]} 62.5 ${svgValues2[counter]} 62.5 ${svgValues2[counter]} 75 C ${svgValues2[counter]} 87.5 ${svgValues1[counter]} 87.5 ${svgValues1[counter]} 100 H 100 V 0`;
 
