@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     .header-logo {
-        width: 20vw;
-        height: 7.5vh;
+        width: clamp(3em, 20vw, 5em);
+        height: auto;
     }
 }

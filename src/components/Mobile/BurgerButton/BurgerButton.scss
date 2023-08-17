@@ -1,6 +1,7 @@
 .burger-button {
     gap: 0.5em;
-    width: 4em;
+    width: clamp(3em, 10vw, 5em);
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
