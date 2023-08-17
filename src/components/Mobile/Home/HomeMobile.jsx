@@ -4,7 +4,7 @@ import Header from "../Header/Header.jsx";
 function HomeMobile() {
     return (
         <div className="home">
-            <Header />;
+            <Header />
         </div>
     );
 }
