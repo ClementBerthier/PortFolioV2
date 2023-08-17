@@ -51,9 +51,12 @@
 }
 
 .burger-menu.unclicked {
-    height: 200vh;
+    height: 100vh;
+    max-width: 100%;
+    min-width: 100%;
 }
 
 .burger-menu.clicked {
     height: 100vh;
+    max-width: 100%;
 }
