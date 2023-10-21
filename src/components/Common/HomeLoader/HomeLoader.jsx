@@ -6,6 +6,7 @@ function HomeLoader() {
     const [loaderValue, setLoaderValue] = useState(0);
     const [dimmerStatus, setDimmerStatus] = useState(true);
     const [fadeOut, setFadeOut] = useState("");
+    const [isLoaderDone, setIsLoaderDone] = useState(false);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -23,6 +24,14 @@ function HomeLoader() {
     }, []);
 
     useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoaderDone(true);
+        }, 3000);
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    useEffect(() => {
         if (loaderValue === 100) {
             setDimmerStatus(false);
             setFadeOut("fadeOut");
@@ -31,16 +40,16 @@ function HomeLoader() {
 
     return (
         <div className="homeLoader">
-            {dimmerStatus ? (
+            {dimmerStatus && !isLoaderDone ? (
                 <Dimmer active>
                     {loaderValue + "%"}
                     <Loader size="massive"></Loader>
                 </Dimmer>
-            ) : (
+            ) : !isLoaderDone ? (
                 <Dimmer active className={fadeOut}>
                     {loaderValue + "%"}
                 </Dimmer>
-            )}
+            ) : null}
         </div>
     );
 }
