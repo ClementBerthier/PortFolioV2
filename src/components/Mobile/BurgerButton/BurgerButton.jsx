@@ -23,7 +23,7 @@ function BurgerButton() {
 
     const [counter, setCounter] = useState(0);
 
-    const svgPath = `M 0 0 H ${svgValues1[counter]}C ${svgValues1[counter]} 12.5 ${svgValues2[counter]} 12.5 ${svgValues2[counter]} 25 C ${svgValues2[counter]} 37.5 ${svgValues1[counter]} 37.5 ${svgValues1[counter]} 50 C ${svgValues1[counter]} 62.5 ${svgValues2[counter]} 62.5 ${svgValues2[counter]} 75 C ${svgValues2[counter]} 87.5 ${svgValues1[counter]} 87.5 ${svgValues1[counter]} 100 H 100 V -1`;
+    const svgPath = `M 0 0 H ${svgValues1[counter]}C ${svgValues1[counter]} 12.5 ${svgValues2[counter]} 12.5 ${svgValues2[counter]} 25 C ${svgValues2[counter]} 37.5 ${svgValues1[counter]} 37.5 ${svgValues1[counter]} 50 C ${svgValues1[counter]} 62.5 ${svgValues2[counter]} 62.5 ${svgValues2[counter]} 75 C ${svgValues2[counter]} 87.5 ${svgValues1[counter]} 87.5 ${svgValues1[counter]} 100 H 100 V 0`;
 
     const Counter = () => {
         if (burgerMenuClass === "burger-menu clicked") {
@@ -70,7 +70,7 @@ function BurgerButton() {
             </div>
             <svg
                 className={burgerMenuClass}
-                viewBox="0 0 100 100"
+                viewBox="10 0 90 100"
                 preserveAspectRatio="none"
             >
                 <path d={svgPath}></path>
