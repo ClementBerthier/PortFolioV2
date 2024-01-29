@@ -1,5 +1,40 @@
 .home {
     width: 100vw;
     height: 100vh;
-    background-color: green;
+
+    .homeContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .homeTitle {
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+            text-align: left;
+            line-height: 5rem;
+            margin: 0 1rem;
+        }
+
+        .homeContact {
+            margin: 0 1rem;
+            h2 {
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: white;
+                text-align: left;
+            }
+            .homeContactInfo {
+                p {
+                    margin: 0;
+                }
+            }
+        }
+
+        .homeSwipe {
+            text-align: center;
+        }
+    }
 }

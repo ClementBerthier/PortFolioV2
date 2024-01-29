@@ -9,10 +9,17 @@ function HomeMobile() {
             <Header />
             <div className="homeContainer">
                 <h1 className="homeTitle">
-                    Developpeur Web et Web Mobile Javascript FullStack
+                    Developpement Web et Web Mobile Javascript FullStack
                 </h1>
-                <div className="homeContact">contact</div>
-                <div>swipe</div>
+                <div className="homeContact">
+                    <h2>Contact</h2>
+                    <div className="homeContactInfo">
+                        <p>berthierclementdev@gmail.com</p>
+                        <p>81100 Castres</p>
+                        <p>+33 7 88 45 37 78</p>
+                    </div>
+                </div>
+                <div className="homeSwipe">swipe</div>
             </div>
         </div>
     );
