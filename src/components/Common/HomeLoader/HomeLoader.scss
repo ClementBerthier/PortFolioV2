@@ -1,7 +1,7 @@
 .homeLoader {
-    overflow: hidden;
     .ui.dimmer {
-        background-color: #0b0e0f;
+        background-color: blue;
+        height: 100%;
     }
     .fadeOut {
         animation: 3s ease-in-out 0s 1 fadeOut forwards;
