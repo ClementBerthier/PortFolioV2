@@ -32,7 +32,7 @@ function HomeLoader() {
     }, []);
 
     useEffect(() => {
-        if (loaderValue === 100) {
+        if (loaderValue === 1000) {
             setDimmerStatus(false);
             setFadeOut("fadeOut");
         }
