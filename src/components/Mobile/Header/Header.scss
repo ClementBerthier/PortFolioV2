@@ -10,4 +10,29 @@
         width: clamp(3em, 20vw, 5em);
         height: auto;
     }
+
+    .onProject {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        .header_counterPage {
+            color: white;
+            margin: auto 0 auto 1.5rem;
+        }
+        .progress_bar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .progress_bar_empty {
+                width: 20px;
+                height: 0.25rem;
+                background-color: grey;
+            }
+            .progress_bar_fill {
+                width: 10px;
+                height: 0.25rem;
+                background-color: white;
+            }
+        }
+    }
 }

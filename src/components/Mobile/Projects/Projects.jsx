@@ -1,10 +1,10 @@
 import "./Projects.scss";
+import Header from "../Header/Header.jsx";
 
 function Projects() {
-
     return (
         <div className="project">
-           test
+            <Header place="project" />
         </div>
     );
 }

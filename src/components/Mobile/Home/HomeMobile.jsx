@@ -6,7 +6,7 @@ function HomeMobile() {
     const rightArrow = ">";
     return (
         <div className="home">
-            <Header />
+            <Header place="home" />
             <div className="homeContainer">
                 <h1 className="homeTitle">
                     Developpement Web et Web Mobile Javascript FullStack
