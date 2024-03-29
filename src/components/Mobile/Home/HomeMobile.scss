@@ -2,13 +2,16 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(#34383b, #0b0e0f, #1b1a37);
-    overflow: hidden;
+    border: 1px solid yellow;
 
     .homeContainer {
+        height: 93%;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
 
         .homeTitle {
+            margin: 3rem 1rem;
             font-size: 3rem;
             font-family: "Poppins", sans-serif;
             font-weight: 700;
@@ -18,6 +21,8 @@
         }
 
         .homeContact {
+            margin: 2rem 1rem;
+
             h2 {
                 font-size: 1.5rem;
                 font-weight: bold;
@@ -33,6 +38,8 @@
         }
 
         .homeSwipe {
+            margin: 3rem 1rem;
+
             text-align: center;
             color: white;
         }
