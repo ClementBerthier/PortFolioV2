@@ -16,6 +16,7 @@ function HomeMobile() {
                     <div className="homeContactInfo">
                         <p>berthierclementdev@gmail.com</p>
                         <p>81100 Castres</p>
+                        <p>France</p>
                         <p>+33 7 88 45 37 78</p>
                     </div>
                 </div>
