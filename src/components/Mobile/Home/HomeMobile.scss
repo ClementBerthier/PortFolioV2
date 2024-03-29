@@ -12,7 +12,7 @@
 
         .homeTitle {
             margin: 3rem 1rem;
-            font-size: 3rem;
+            font-size: clamp(0.5rem, 4vh + 1vw, 3.4rem);
             font-family: "Poppins", sans-serif;
             font-weight: 700;
             color: white;
