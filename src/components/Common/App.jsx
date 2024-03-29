@@ -1,8 +1,8 @@
 import "./App.scss";
 import useMobileDetect from "../../Hook/useMobileDetect.js";
-import HomeMobile from "../Mobile/Home/HomeMobile.jsx";
 import HomeDesktop from "../Desktop/Home/HomeDesktop.jsx";
 import { Routes, Route } from "react-router-dom";
+import HomeSwiper from "../Mobile/HomeSwiper/HomeSwiper.jsx";
 
 function App() {
     const isMobile = useMobileDetect();
@@ -12,7 +12,7 @@ function App() {
             {isMobile ? (
                 <Routes>
                     {" "}
-                    <Route path="/" element={<HomeMobile />} />{" "}
+                    <Route path="/" element={<HomeSwiper />} />{" "}
                 </Routes>
             ) : (
                 <Routes>
