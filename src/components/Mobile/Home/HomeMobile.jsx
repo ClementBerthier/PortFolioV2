@@ -3,6 +3,8 @@ import Header from "../Header/Header.jsx";
 import HomeLoader from "../../Common/HomeLoader/HomeLoader.jsx";
 
 function HomeMobile() {
+    const leftArrow = "<";
+    const rightArrow = ">";
     return (
         <div className="home">
             <HomeLoader />
@@ -20,7 +22,11 @@ function HomeMobile() {
                         <p>+33 7 88 45 37 78</p>
                     </div>
                 </div>
-                <div className="homeSwipe">swipe</div>
+                <div className="homeSwipe">
+                    <div className="leftArrow">{leftArrow}</div>
+                    <p className="swipe">Swipe</p>
+                    <div className="rightArrow">{rightArrow}</div>
+                </div>
             </div>
         </div>
     );
