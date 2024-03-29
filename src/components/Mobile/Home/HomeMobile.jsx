@@ -1,13 +1,11 @@
 import "./HomeMobile.scss";
 import Header from "../Header/Header.jsx";
-import HomeLoader from "../../Common/HomeLoader/HomeLoader.jsx";
 
 function HomeMobile() {
     const leftArrow = "<";
     const rightArrow = ">";
     return (
         <div className="home">
-            <HomeLoader />
             <Header />
             <div className="homeContainer">
                 <h1 className="homeTitle">
