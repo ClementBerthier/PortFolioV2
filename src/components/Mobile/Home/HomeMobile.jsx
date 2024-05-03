@@ -8,9 +8,7 @@ function HomeMobile() {
         <div className="home">
             <Header place="home" />
             <div className="homeContainer">
-                <h1 className="homeTitle">
-                    Developpement Web et Web Mobile Javascript FullStack
-                </h1>
+                <h1 className="homeTitle">Clément Berthier Développeur</h1>
                 <div className="homeContact">
                     <h2>Contact</h2>
                     <div className="homeContactInfo">
